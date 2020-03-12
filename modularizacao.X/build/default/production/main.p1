@@ -357,28 +357,28 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 43:             if( chave0() == 1 || chave1() == 1 )
 [e $ ! || == -> ( _chave0 ..  `i -> 1 `i == -> ( _chave1 ..  `i -> 1 `i 145  ]
 "44
-[; ;main.c: 44:         {
+[; ;main.c: 44:             {
 {
 "45
-[; ;main.c: 45:             ligarLED0();
+[; ;main.c: 45:                 ligarLED0();
 [e ( _ligarLED0 ..  ]
 "46
-[; ;main.c: 46:             _delay((unsigned long)((250)*(4000000/4000.0)));
+[; ;main.c: 46:                 _delay((unsigned long)((250)*(4000000/4000.0)));
 [e ( __delay (1 -> * -> -> 250 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "47
-[; ;main.c: 47:             desligarLED0();
+[; ;main.c: 47:                 desligarLED0();
 [e ( _desligarLED0 ..  ]
 "48
-[; ;main.c: 48:             ligarLED1();
+[; ;main.c: 48:                 ligarLED1();
 [e ( _ligarLED1 ..  ]
 "49
-[; ;main.c: 49:             _delay((unsigned long)((250)*(4000000/4000.0)));
+[; ;main.c: 49:                 _delay((unsigned long)((250)*(4000000/4000.0)));
 [e ( __delay (1 -> * -> -> 250 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "50
-[; ;main.c: 50:             desligarLED1();
+[; ;main.c: 50:                 desligarLED1();
 [e ( _desligarLED1 ..  ]
 "51
-[; ;main.c: 51:         }
+[; ;main.c: 51:             }
 }
 [e :U 145 ]
 "52

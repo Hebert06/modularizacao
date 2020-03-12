@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V2.00 build -1524193055 
-                                                                                               Thu Mar 12 10:07:42 2020
+                                                                                               Thu Mar 12 10:30:15 2020
 
 Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 20180527130849
      1  0000                     
@@ -792,7 +792,7 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
    730                           __CFG_MCLRE$OFF equ 0x0
    731  0000                     global __CFG_LVP$OFF
    732                           __CFG_LVP$OFF equ 0x0
-   733  0000                     	file	"C:\Users\19269311\AppData\Local\Temp\sa74."
+   733  0000                     	file	"C:\Users\19269311\AppData\Local\Temp\s6c4."
    734                           	line	#
    735                           psect cinit,class=CODE,delta=2
    736                           global start_initialization
@@ -1225,12 +1225,12 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
   1163  07C7                     	line	45
   1164                           	
   1165                           l694:	
-  1166  07C7                     ;main.c: 44:         {;main.c: 45:             ligarLED0();
+  1166  07C7                     ;main.c: 44:             {;main.c: 45:                 ligarLED0();
   1167                           	fcall	_ligarLED0
   1168  07C7  120A  118A  2702  120A  118A  	line	46
   1169                           	
   1170                           l696:	
-  1171  07CC                     ;main.c: 46:             _delay((unsigned long)((250)*(4000000/4000.0)));
+  1171  07CC                     ;main.c: 46:                 _delay((unsigned long)((250)*(4000000/4000.0)));
   1172                           	opt asmopt_push
   1173                           opt asmopt_off
   1174                           movlw  2
@@ -1252,17 +1252,17 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
   1190                           	line	47
   1191                           	
   1192                           l698:	
-  1193  07D9                     ;main.c: 47:             desligarLED0();
+  1193  07D9                     ;main.c: 47:                 desligarLED0();
   1194                           	fcall	_desligarLED0
   1195  07D9  120A  118A  26FA  120A  118A  	line	48
   1196                           	
   1197                           l700:	
-  1198  07DE                     ;main.c: 48:             ligarLED1();
+  1198  07DE                     ;main.c: 48:                 ligarLED1();
   1199                           	fcall	_ligarLED1
   1200  07DE  120A  118A  2706  120A  118A  	line	49
   1201                           	
   1202                           l702:	
-  1203  07E3                     ;main.c: 49:             _delay((unsigned long)((250)*(4000000/4000.0)));
+  1203  07E3                     ;main.c: 49:                 _delay((unsigned long)((250)*(4000000/4000.0)));
   1204                           	opt asmopt_push
   1205                           opt asmopt_off
   1206                           movlw  2
@@ -1282,11 +1282,11 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
   1220  07EF  2FF0               opt asmopt_pop
   1221                           
   1222                           	line	50
-  1223                           ;main.c: 50:             desligarLED1();
+  1223                           ;main.c: 50:                 desligarLED1();
   1224                           	fcall	_desligarLED1
   1225  07F0  120A  118A  26FE  120A  118A  	goto	l662
   1226  07F5  2F34               	line	51
-  1227                           ;main.c: 51:         }
+  1227                           ;main.c: 51:             }
   1228                           	
   1229                           l27:	
   1230  07F6                     	goto	l662
@@ -1945,7 +1945,7 @@ DATA                 0      0       0      12        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.00 build -1524193055 
-Symbol Table                                                                                   Thu Mar 12 10:07:42 2020
+Symbol Table                                                                                   Thu Mar 12 10:30:15 2020
 
                       l30 07F8                        l31 07F9                        l23 0734  
                       l32 07F9                        l24 0777                        l25 07B2  

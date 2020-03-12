@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\19269311\AppData\Local\Temp\sa74.o
+$C:\Users\19269311\AppData\Local\Temp\s6c4.o
 end_init CODE 0 0 0 3 2
 config CONFIG 0 2007 2007 1 2
 $dist/default/production\modularizacao.X.production.o
@@ -73,11 +73,11 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\modularizacao.X.production.o
-7FC cinit CODE >738:C:\Users\19269311\AppData\Local\Temp\sa74.
-7FC cinit CODE >741:C:\Users\19269311\AppData\Local\Temp\sa74.
-7FC cinit CODE >747:C:\Users\19269311\AppData\Local\Temp\sa74.
-7FC cinit CODE >749:C:\Users\19269311\AppData\Local\Temp\sa74.
-7FD cinit CODE >750:C:\Users\19269311\AppData\Local\Temp\sa74.
+7FC cinit CODE >738:C:\Users\19269311\AppData\Local\Temp\s6c4.
+7FC cinit CODE >741:C:\Users\19269311\AppData\Local\Temp\s6c4.
+7FC cinit CODE >747:C:\Users\19269311\AppData\Local\Temp\s6c4.
+7FC cinit CODE >749:C:\Users\19269311\AppData\Local\Temp\s6c4.
+7FD cinit CODE >750:C:\Users\19269311\AppData\Local\Temp\s6c4.
 70F text8 CODE >16:C:\Users\19269311\MPLABXProjects\modularizacao\modularizacao.X\chaves.c
 70F text8 CODE >18:C:\Users\19269311\MPLABXProjects\modularizacao\modularizacao.X\chaves.c
 716 text8 CODE >19:C:\Users\19269311\MPLABXProjects\modularizacao\modularizacao.X\chaves.c
@@ -157,18 +157,18 @@ __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\19269311\AppData\Local\Temp\sa74.o
+___sp 0 0 STACK 2 stack C:\Users\19269311\AppData\Local\Temp\s6c4.o
 _main E52 0 CODE 0 maintext dist/default/production\modularizacao.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\modularizacao.X.production.o
-start 0 0 CODE 0 init C:\Users\19269311\AppData\Local\Temp\sa74.o
+start 0 0 CODE 0 init C:\Users\19269311\AppData\Local\Temp\s6c4.o
 __size_of_main 0 0 ABS 0 - dist/default/production\modularizacao.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\sa74.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\sa74.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\sa74.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\sa74.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\sa74.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\sa74.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\s6c4.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\s6c4.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\s6c4.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\s6c4.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\s6c4.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\19269311\AppData\Local\Temp\s6c4.o
 wtemp0 7E 0 ABS 0 - dist/default/production\modularizacao.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
@@ -182,7 +182,7 @@ _TRISDbits 88 0 ABS 0 - dist/default/production\modularizacao.X.production.o
 _desligarLED0 DF4 0 CODE 0 text6 dist/default/production\modularizacao.X.production.o
 _desligarLED1 DFC 0 CODE 0 text5 dist/default/production\modularizacao.X.production.o
 __end_of_initLED E52 0 CODE 0 text3 dist/default/production\modularizacao.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\19269311\AppData\Local\Temp\sa74.o
+___int_sp 0 0 STACK 2 stack C:\Users\19269311\AppData\Local\Temp\s6c4.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -230,7 +230,7 @@ __CFG_FOSC$INTRC_NOCLKOUT 0 0 ABS 0 - dist/default/production\modularizacao.X.pr
 __end_of_desligarLED0 DFC 0 CODE 0 text6 dist/default/production\modularizacao.X.production.o
 __end_of_desligarLED1 E04 0 CODE 0 text5 dist/default/production\modularizacao.X.production.o
 __Lintentry 0 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\19269311\AppData\Local\Temp\sa74.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\19269311\AppData\Local\Temp\s6c4.o
 __end_of_ligarLED0 E0C 0 CODE 0 text2 dist/default/production\modularizacao.X.production.o
 __end_of_ligarLED1 E14 0 CODE 0 text1 dist/default/production\modularizacao.X.production.o
 __size_of_ligarLED0 0 0 ABS 0 - dist/default/production\modularizacao.X.production.o
@@ -246,8 +246,8 @@ __CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\modularizacao.X.production.o
 _ligarLED0 E04 0 CODE 0 text2 dist/default/production\modularizacao.X.production.o
 _ligarLED1 E0C 0 CODE 0 text1 dist/default/production\modularizacao.X.production.o
 _initChave E14 0 CODE 0 text4 dist/default/production\modularizacao.X.production.o
-stackhi 0 0 ABS 0 - C:\Users\19269311\AppData\Local\Temp\sa74.o
-stacklo 0 0 ABS 0 - C:\Users\19269311\AppData\Local\Temp\sa74.o
+stackhi 0 0 ABS 0 - C:\Users\19269311\AppData\Local\Temp\s6c4.o
+stacklo 0 0 ABS 0 - C:\Users\19269311\AppData\Local\Temp\s6c4.o
 __CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\modularizacao.X.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -

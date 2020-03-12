@@ -2563,14 +2563,14 @@ void main(void)
         else
         {
             if( chave0() == 1 || chave1() == 1 )
-        {
-            ligarLED0();
-            _delay((unsigned long)((250)*(4000000/4000.0)));
-            desligarLED0();
-            ligarLED1();
-            _delay((unsigned long)((250)*(4000000/4000.0)));
-            desligarLED1();
-        }
+            {
+                ligarLED0();
+                _delay((unsigned long)((250)*(4000000/4000.0)));
+                desligarLED0();
+                ligarLED1();
+                _delay((unsigned long)((250)*(4000000/4000.0)));
+                desligarLED1();
+            }
         }
 
     }
